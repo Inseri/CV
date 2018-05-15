@@ -1,0 +1,51 @@
+body{
+	background : url("barre.png") fixed no-repeat 75px 0px, url("binaire.jpg");
+
+}
+@font-face {
+	font-family: Mingliu ;
+	src : url (font\mingliu.ttf) format('truetype');
+}
+h1{
+	text-align : center;
+	color : #00FFFF;
+	size : 40px;
+	font-family : Helvetica;
+	border : 3px #00FFFF double;
+	width : 40%;
+	margin-left : 600px;
+		background-color : rgba(0,0,0,0.8)
+
+}
+h2{
+	text-align : center;
+	color : #FFFF00;
+	size : 30px;
+	font-family : Mingliu;
+	font-style : italic;
+	text-decoration : underline;
+	border : 3px #CCCCFF double;
+	width : 35%;
+	margin-left : 630px;
+	background-color : rgba(0,0,0,0.5)
+}
+ul{
+	text-align : left;
+	color : #CC0000;
+	size : 20px ;
+	font-family : Arial;
+	background-color : rgba(255,255,255,0.7);
+	border : 1px black double;
+		margin-left : 400px;
+	
+}
+p{
+	text-align : left;
+	size : 15px;
+	font-weight : bold;
+	margin-left : 100px;
+}
+h6 p{
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 100px;
+}
